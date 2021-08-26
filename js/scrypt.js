@@ -40,7 +40,7 @@ const oddNumbers=(n) => {
    let oddnum = 1;
    let result = '';
    while (oddnum <= n) {
-      result=result + ' ' + `${oddnum}`;
+      result=result + ' ' + `${oddnum}`; // без пробела некрасиво.
       oddnum=oddnum+2;    
    }
    return result; 
