@@ -59,3 +59,5 @@ console.log(searchNumberDegree3(25));
 console.log(searchNumberDegree3(9));
 console.log(searchNumberDegree3(6));
 
+
+
