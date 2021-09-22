@@ -25,13 +25,13 @@ console.log(getMaxOfArray([27, 0, -5, 40]));
 
 // задача Реализуйте функцию, которая извлекает из массива элемент по указанному индексу, если индекс существует,
 // либо возвращает значение по-умолчанию. Функция принимает на вход три аргумента:
-const cityes = ['moscow', 'london', 'berlin', 'porto'];  // создаем массив
-const getElement = (cityes, index, strong) => {
-    if (index < 0 || index >= cityes.length) {  //проверяем, что индекс в пределах длины массива
+const cities = ['moscow', 'london', 'berlin', 'porto'];  // создаем массив
+const getElement = (cities, index, strong) => {
+    if (index < 0 || index >= cities.length) {  //проверяем, что индекс в пределах длины массива
         return strong;  // если за пределами, то значение по умолчанию
     }
     
-    return cityes[index];   
+    return cities[index];   
     
     //меня терзают сомнения, что я правильно понял условие задачи, как то все легко
     
